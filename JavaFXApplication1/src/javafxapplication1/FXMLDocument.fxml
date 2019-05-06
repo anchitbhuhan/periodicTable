@@ -1,0 +1,2028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <children>
+      <VBox prefHeight="308.0" prefWidth="25.0">
+         <children>
+            <Button fx:id="p1" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="27.0" style="-fx-background-color: none;" text="1">
+               <VBox.margin>
+                  <Insets top="126.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="p2" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: none; -fx-border-color: 00088;" text="2">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="p3" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: none; -fx-border-color: 00088;" text="3">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="p4" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: none; -fx-border-color: 00088;" text="4">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="p5" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: none; -fx-border-color: 00088;" text="5">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="p6" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: none; -fx-border-color: 00088;" text="6">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="p7" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: none; -fx-border-color: 00088;" text="7">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets left="40.0" />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="50.0">
+         <children>
+            <Button fx:id="g1" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="1">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="82.0" prefWidth="62.0" />
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+            <Button fx:id="Hydrogen" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="H" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button fx:id="Lithium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFCC33; -fx-border-color: BLACK;" text="Li">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Sodium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFCC33; -fx-border-color: BLACK;" text="Na">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Potassium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFCC33; -fx-border-color: BLACK;" text="K">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="rb" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFCC33; -fx-border-color: BLACK;" text="Rb">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Caesium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFCC33; -fx-border-color: BLACK;" text="Cs">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Francium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="52.0" style="-fx-background-color: #FFCC33; -fx-border-color: BLACK;" text="Fr">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="0.0">
+         <children>
+            <Button fx:id="g2" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="2">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="110.0" prefWidth="50.0" />
+            <Button fx:id="Beryllium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #FFFF44; -fx-border-color: BLACK;" text="Be">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect></Button>
+            <Button fx:id="Magnesium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFFF44; -fx-border-color: BLACK;" text="Mg">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Calcium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFFF44; -fx-border-color: BLACK;" text="Ca">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Strontium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFFF44; -fx-border-color: BLACK;" text="Sr">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Barium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFFF44; -fx-border-color: BLACK;" text="Ba">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Radium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #FFFF44; -fx-border-color: BLACK;" text="Ra">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox minHeight="50.0" minWidth="50.0" prefHeight="476.0" prefWidth="50.0">
+         <children>
+            <Button fx:id="g3" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="3">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="210.0" prefWidth="63.0" />
+            <Button fx:id="Scandium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Sc">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Yttrium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Y">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="51.0" style="-fx-border-color: black; -fx-background-color: ffbb99;" text="51-71">
+               <padding>
+                  <Insets top="-1.0" />
+               </padding>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="89-103">
+               <padding>
+                  <Insets left="-2.0" />
+               </padding>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="0.0">
+         <children>
+            <Button fx:id="g4" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="4">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="221.0" prefWidth="63.0" />
+            <Button fx:id="Titanium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Ti">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Zirconium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Zr">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Hafnium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Hf">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Rutherfordium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Rf">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="2.0">
+         <children>
+            <Button fx:id="g5" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="5">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="233.0" prefWidth="64.0" />
+            <Button fx:id="Vanadium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="V">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Niobium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Nb">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Tantalum" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Ta">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Dubnium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Db">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="9.0">
+         <children>
+            <Button fx:id="g6" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="6">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="210.0" prefWidth="44.0" />
+            <Button fx:id="Chromium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Cr">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Molybdenum" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Mo">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Tungsten" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="W">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Seeborgium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Sg">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="23.0">
+         <children>
+            <Button fx:id="g7" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="7">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="239.0" prefWidth="62.0" style="-fx-background-color: #;" />
+            <Button fx:id="Manganese" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Mn">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Technetium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Tc">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Rhenium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Re">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Bohrium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Bh">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="26.0">
+         <children>
+            <Button fx:id="g8" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="8">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="naya" mnemonicParsing="false" onAction="#ohNewPress" text="New" />
+            <Separator prefHeight="186.0" prefWidth="14.0" />
+            <Button fx:id="Iron" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Fe">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Ruthenium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Ru">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Osmium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Os">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Hassium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Hs">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="49.0">
+         <children>
+            <Button fx:id="g9" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="9">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="272.0" prefWidth="64.0" />
+            <Button fx:id="Cobalt" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Co">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Rhodium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Rh">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Iridium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Ir">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Meitnerium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Mt">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="47.0">
+         <children>
+            <Button fx:id="g10" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="10">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="216.0" prefWidth="64.0" />
+            <Button fx:id="Nickel" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Ni">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Palladium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Pd">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Platinum" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Pt">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Darnstadtium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Ds">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="47.0">
+         <children>
+            <Button fx:id="g11" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="11">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="221.0" prefWidth="63.0" />
+            <Button fx:id="Copper" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Cu">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Silver" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Ag">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Gold" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Au">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Roentgenium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Rg">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="42.0">
+         <children>
+            <Button fx:id="g12" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="12">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="210.0" prefWidth="39.0" />
+            <Button fx:id="Zinc" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Zn">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Cadmium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Cd">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Mercury" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Hg" textFill="#0000dd">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Copernicium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #DDBBBB; -fx-border-color: BLACK;" text="Cn">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="0.0">
+         <children>
+            <Button fx:id="g13" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="75.0" style="-fx-border-color: none; -fx-background-color: none;" text="13">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="110.0" prefWidth="22.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin></Separator>
+            <Button fx:id="Boron" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77dd88; -fx-border-color: black;" text="B">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Aluminium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Al">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Gallium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Ga">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Indium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="In">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Thallium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Tl">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Nihonium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Nh">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="39.0">
+         <children>
+            <Button fx:id="g14" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="14">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="126.0" prefWidth="63.0" />
+            <Button fx:id="Carbon" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="C">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Silicon" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77dd88; -fx-border-color: black;" text="Si">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Germanium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77dd88; -fx-border-color: black;" text="Ge">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Tin" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Sn">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Lead" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Pb">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Flerovium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Fl">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="39.0">
+         <children>
+            <Button fx:id="g15" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="15">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="124.0" prefWidth="63.0" />
+            <Button fx:id="Nitrogen" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="N" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Phosphorus" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="P">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Arsenic" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77dd88; -fx-border-color: black;" text="As">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Antimony" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77dd88; -fx-border-color: black;" text="Sb">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Bismuth" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Bi">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Moscovium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Mc">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="32.0">
+         <children>
+            <Button fx:id="g16" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="16">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="129.0" prefWidth="62.0" />
+            <Button fx:id="Oxygen" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="O" textFill="#990000">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Sulphur" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="S">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Selenium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="Se">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Tellurium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77dd88; -fx-border-color: black;" text="Te">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Polonium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #99ddcc; -fx-border-color: black;" text="Po">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Livermorium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Lv">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="41.0">
+         <children>
+            <Button fx:id="g17" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-border-color: none; -fx-background-color: none;" text="17">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="124.0" prefWidth="62.0" />
+            <Button fx:id="Fluorine" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="F" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Chlorine" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="Cl" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Bromine" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="Br" textFill="#0000dd">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Iodine" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #22FF22; -fx-border-color: BLACK;" text="I">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Astatine" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77dd88; -fx-border-color: black;" text="At">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Tennessine" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Ts">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <VBox prefHeight="476.0" prefWidth="30.0">
+         <children>
+            <Button fx:id="g18" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="77.0" style="-fx-border-color: none; -fx-background-color: none;" text="18">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Separator prefHeight="120.0" prefWidth="62.0" />
+            <Button fx:id="Helium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77ccff; -fx-border-color: black;" text="He" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Neon" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="67.0" style="-fx-background-color: #77ccff; -fx-border-color: black;" text="Ne" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Argon" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77ccff; -fx-border-color: black;" text="Ar" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Krypton" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77ccff; -fx-border-color: black;" text="Kr" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Xenon" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77ccff; -fx-border-color: black;" text="Xe" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Radon" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #77ccff; -fx-border-color: black;" text="Rn" textFill="#990000">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="Oganesson" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #667766; -fx-border-color: BLACK;" text="Og">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </VBox>
+      <FlowPane prefHeight="156.0" prefWidth="758.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="739.0">
+               <children>
+                  <Button fx:id="Lanthanum" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="La">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></Button>
+                  <Button fx:id="Cerium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Ce">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Praseodymium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Pr">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Neodymium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Nd">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Pronethium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Pm">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Samarium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Sm">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Europium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Eu">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Gadolinium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Gd">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Terbium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Tb">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Dysprosium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Dy">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Holmium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Ho">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Erbium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Er">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Thulium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Tm">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Ytterbium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Yb">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Lutetium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: #ffbb99; -fx-border-color: black;" text="Lu">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+               </children>
+               <FlowPane.margin>
+                  <Insets top="40.0" />
+               </FlowPane.margin>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="762.0">
+               <children>
+                  <Button fx:id="ac" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Ac">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="60.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="Thorium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Th">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Protactinium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Pa">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Uranium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="U">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Neptunium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Np">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Plutonium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Pu">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Americium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Am">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Curium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Cm">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Berkelium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Bk">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Californium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Cf">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Einsteinium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Es">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Fermium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Fm">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Mendelevium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Md">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Nobelium" minHeight="50.0" minWidth="48.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="48.0" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="No">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <Button fx:id="Lawrencium" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-color: eebbdd; -fx-border-color: black;" text="Lr">
+                     <effect>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </effect>
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+               </children>
+               <FlowPane.margin>
+                  <Insets />
+               </FlowPane.margin>
+               <padding>
+                  <Insets left="-60.0" />
+               </padding>
+            </HBox>
+         </children>
+         <FlowPane.margin>
+            <Insets left="250.0" />
+         </FlowPane.margin>
+      </FlowPane>
+   </children>
+</FlowPane>

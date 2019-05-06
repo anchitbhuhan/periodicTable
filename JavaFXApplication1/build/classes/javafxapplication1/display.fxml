@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.DisplayController">
+   <children>
+      <Label layoutX="50.0" layoutY="40.0" prefHeight="16.0" prefWidth="77.0" text="Atomic no.:" />
+      <Label fx:id="atomicNo" layoutX="156.0" layoutY="40.0" prefHeight="16.0" prefWidth="120.0" />
+      <Label layoutX="50.0" layoutY="121.0" prefHeight="16.0" prefWidth="62.0" text="Symbol:" />
+      <Label fx:id="symbol" layoutX="127.0" layoutY="121.0" prefHeight="16.0" prefWidth="120.0" />
+      <Label layoutX="50.0" layoutY="77.0" text="Name:" />
+      <Label fx:id="name" layoutX="111.0" layoutY="77.0" prefHeight="16.0" prefWidth="98.0" />
+      <Label layoutX="49.0" layoutY="158.0" text="Atomic Mass:" />
+      <Label layoutX="54.0" layoutY="195.0" text="Group:" />
+      <Label layoutX="54.0" layoutY="227.0" text="Period:" />
+      <Label layoutX="59.0" layoutY="259.0" text="Block:" />
+      <Label layoutX="47.0" layoutY="294.0" text="Electronic configuration:" />
+      <Label layoutX="54.0" layoutY="332.0" text="Preassure at STP:" />
+      <Label layoutX="54.0" layoutY="364.0" text="Melting Point:" />
+      <Label layoutX="54.0" layoutY="397.0" text="Boiling Point:" />
+      <Label layoutX="54.0" layoutY="433.0" text="Density:" />
+      <Label layoutX="59.0" layoutY="468.0" text="Discovered By:" />
+      <Label layoutX="54.0" layoutY="514.0" text="Description:" />
+      <Label fx:id="atomicMass" layoutX="189.0" layoutY="158.0" prefHeight="16.0" prefWidth="130.0" />
+      <Label fx:id="group" layoutX="198.0" layoutY="195.0" prefHeight="16.0" prefWidth="89.0" />
+      <Label fx:id="period" layoutX="150.0" layoutY="227.0" prefHeight="16.0" prefWidth="98.0" />
+      <Label fx:id="block" layoutX="191.0" layoutY="259.0" prefHeight="16.0" prefWidth="114.0" />
+      <Label fx:id="ec" layoutX="258.0" layoutY="294.0" prefHeight="16.0" prefWidth="130.0" />
+      <Label fx:id="stp" layoutX="209.0" layoutY="332.0" prefHeight="16.0" prefWidth="98.0" />
+      <Label layoutX="305.0" layoutY="332.0" text="K" />
+      <Label fx:id="mp" layoutX="181.0" layoutY="364.0" prefHeight="16.0" prefWidth="114.0" />
+      <Label layoutX="291.0" layoutY="364.0" text="K" />
+      <Label fx:id="bp" layoutX="173.0" layoutY="397.0" prefHeight="16.0" prefWidth="114.0" />
+      <Label layoutX="289.0" layoutY="397.0" text="K" />
+      <Label fx:id="density" layoutX="150.0" layoutY="433.0" prefHeight="16.0" prefWidth="98.0" />
+      <Label layoutX="248.0" layoutY="433.0" text="gm/cm^3" />
+      <Label fx:id="by" layoutX="212.0" layoutY="468.0" prefHeight="16.0" prefWidth="120.0" />
+      <TextArea fx:id="desc" layoutX="144.0" layoutY="514.0" prefHeight="169.0" prefWidth="575.0" snapToPixel="false" />
+   </children>
+</Pane>
