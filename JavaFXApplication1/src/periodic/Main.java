@@ -8,7 +8,7 @@
 //public class Main {
 //    public static void main(String[] args) throws ClassNotFoundException, IOException{
 //        
-//        System.out.println("This is a Periodic Table and mera lauda bhi hai isme madharchod");
+//        System.out.println("This is a Periodic Table");
 //        
 //        Element e1 = new Element(1, "Hydrogen", "H", 1.008, 1, 1, 's', "1s1", "gas", 13.99, 20.271, 0.0899, "Hydrogen is a chemical element with symbol H and atomic number 1. With a standard atomic weight of 1.008, hydrogen is the lightest element in the periodic table. Hydrogen is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.[7][note 1] Non-remnant stars are mainly composed of hydrogen in the plasma state. The most common isotope of hydrogen, termed protium (name rarely used, symbol 1H), has one proton and no neutrons. ", "Henry Cavendish" );
 //        
