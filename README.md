@@ -1,3 +1,4 @@
+
 This Periodic Table project is a simple application built with the use of graphics. It is developed using
 the JAVA programming language for the purpose of storing name, symbol, atomic number, atomic
 weight, and some important properties as well as to display them as per requirement of the user.
@@ -11,3 +12,5 @@ The table has color representation which allows user to distinguish between elem
 you can add any new element with its name, symbol, atomic number, atomic weight and its some
 important properties. These information are stored in file created on the hard disk of computer by
 program itself.
+
+
